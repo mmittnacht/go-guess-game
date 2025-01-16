@@ -31,7 +31,7 @@ func main() {
 		}
 
 		if guessNumber == playerGuess {
-			fmt.Printf("Congrats, you guess it, it's %d\n", guessNumber)
+			fmt.Printf("Congrats, you guessed it, it's %d\n", guessNumber)
 			break
 		} else if guessNumber > playerGuess {
 			fmt.Printf("Guessed number: %d is smaller than the random number between 1-100\n", playerGuess)
